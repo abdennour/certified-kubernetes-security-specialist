@@ -3,10 +3,15 @@
 # Cluster Setup – 10%
 
 ## Use Network security policies to restrict cluster level access
+- https://github.com/ahmetb/kubernetes-network-policy-recipes
+- https://medium.com/@reuvenharrison/an-introduction-to-kubernetes-network-policies-for-security-people-ba92dd4c809d
+- https://github.com/Tufin/test-network-policies
 
-## Use CIS benchmark to review the security configuration of 
-
-## Kubernetes components (etcd, kubelet, kubedns, kubeapi)
+## Use CIS benchmark to review the security configuration of  Kubernetes components (etcd, kubelet, kubedns, kubeapi)
+- https://www.cisecurity.org/benchmark/kubernetes/
+- https://github.com/dev-sec/cis-kubernetes-benchmark
+- https://github.com/aquasecurity/kube-bench
+- https://cloud.google.com/kubernetes-engine/docs/concepts/cis-benchmarks
 
 ## Properly set up Ingress objects with security control
 
