@@ -85,7 +85,7 @@
 
 - https://kubernetes.io/docs/tutorials/clusters/seccomp/
 
-- 📚 ["Container Security"](https://info.aquasec.com/container-security-book) by Liz Rice which covers AppArmor, Seccomp, SELinux and the whole gang.
+- 📚 ["Container Security"](https://cdn2.hubspot.net/hubfs/1665891/Assets/Container%20Security%20by%20Liz%20Rice%20-%20OReilly%20Apr%202020.pdf?utm_medium=email&_hsmi=85733108&_hsenc=p2ANqtz--tQO3LhW0VqGNthE1dZqnfki1pYhEq-I_LU87M03pmQlvhXhA1lO4jO3vLjN4NtcbEiFyIL2lEBlzzMHe96VPXERZryw&utm_content=85733108&utm_source=hs_automation) by Liz Rice which covers AppArmor, Seccomp, SELinux and the whole gang.
 
 
 #  Minimize Microservice Vulnerabilities – 20%
