@@ -3,7 +3,8 @@
 # Cluster Setup – 10%
 
 ## Use Network security policies to restrict cluster level access
-- https://github.com/ahmetb/kubernetes-network-policy-recipes
+- https://kubernetes.io/docs/concepts/services-networking/network-policies/
+- 🔬 https://github.com/ahmetb/kubernetes-network-policy-recipes 
 - https://medium.com/@reuvenharrison/an-introduction-to-kubernetes-network-policies-for-security-people-ba92dd4c809d
 - https://github.com/Tufin/test-network-policies
 
@@ -17,9 +18,19 @@
 
 ## Protect node metadata and endpoints
 
+- [Retrieve Node Metadata .e.g: AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html) : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
+
+- e.g: [Restricting access to Amazon EC2 instance profile credentials](https://docs.aws.amazon.com/eks/latest/userguide/restrict-ec2-credential-access.html) or its [UserData](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) could be part of the exam.
+
+
 ## Minimize use of, and access to, GUI elements
 
+- https://blog.heptio.com/on-securing-the-kubernetes-dashboard-16b09b1b7aca
+
 ## Verify platform binaries before deploying
+
+- https://github.com/kubernetes/kubernetes/releases
+
 
 # Cluster Hardening – 15%
 
