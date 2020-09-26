@@ -103,6 +103,9 @@
 
 ## Scan images for known vulnerabilities
 
+- Tools around dynamic container image scan : 
+
+[](.images/dynamic-container-image-scan-tools.png)
 
 # Monitoring, Logging and Runtime Security – 20%
 
