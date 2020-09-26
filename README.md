@@ -24,9 +24,23 @@
 # Cluster Hardening – 15%
 
 ## Restrict access to Kubernetes API
+- [Controlling Access to the Kubernetes API](https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/) : https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/ 
+
 ## Use Role Based Access Controls to minimize exposure
+
+- https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+- https://github.com/David-VTUK/CKA-StudyGuide/blob/master/RevisionTopics/Part-5-Security.md
+
 ##  Exercise caution in using service accounts e.g. disable defaults, minimize permissions on newly created ones
+
+- https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/
+- https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
+
 ## Update Kubernetes frequently
+
+- https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/
+
+
 
 # System Hardening – 15%
 
