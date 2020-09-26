@@ -191,7 +191,7 @@
 
 - [SIG security - MoM](https://docs.google.com/document/d/170y5biX9k95hYRwprITprG6Mc9xD5glVn-4mB2Jmi2g/edit#heading=h.7hyo00ewips2)
 
-[Firecracker](https://firecracker-microvm.github.io/) for multi-tenancy, [Bottlerocket](https://aws.amazon.com/bottlerocket/) to reduce the attack surface, [audit2rbac](https://github.com/liggitt/audit2rbac) for generating RBAC roles
+- [Firecracker](https://firecracker-microvm.github.io/) for multi-tenancy, [Bottlerocket](https://aws.amazon.com/bottlerocket/) to reduce the attack surface, [audit2rbac](https://github.com/liggitt/audit2rbac) for generating RBAC roles
 
 -------
 
