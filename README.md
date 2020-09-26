@@ -83,14 +83,43 @@
 
 - 📚 ["Container Security"](https://info.aquasec.com/container-security-book) by Liz Rice which covers AppArmor, Seccomp, SELinux and the whole gang.
 
-##  Minimize Microservice Vulnerabilities – 20%
 
-
+#  Minimize Microservice Vulnerabilities – 20%
 
 ## Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts
+
+- > PSP : https://kubernetes.io/docs/concepts/policy/pod-security-policy/
+- > OPA : https://www.openpolicyagent.org/docs/latest/kubernetes-primer/
+- > Security Context : https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+
 ## Manage Kubernetes secrets
+
+- https://kubernetes.io/docs/concepts/configuration/secret/
+
+- 📹 TGIK - Advanced k8s secret management : https://www.youtube.com/watch?v=IznsHhKL428&ab_channel=VMwareCloudNativeApps
+
+- 🔬 Sealed Secrets : https://github.com/bitnami-labs/sealed-secrets
+
+- secrets-store-csi-driver : https://github.com/kubernetes-sigs/secrets-store-csi-driver
+
 ## Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)
+
+- gVisor : https://gvisor.dev/docs/user_guide/install/
+
+- kata : https://github.com/kata-containers/kata-containers
+
+- 🔬 Hands-on Kata : https://github.com/abdennour/abdennour.github.io/blob/master/_posts/2018-06-09-successfully-running-kata-containers-in-the-cloud.markdown
+
 ## Implement pod to pod encryption by use of mTLS
+
+- https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/
+
+- Using **istio** , https://developer.ibm.com/technologies/containers/tutorials/istio-security-mtls/
+
+- Using **linkerd**, https://linkerd.io/2/features/automatic-mtls/
+
+- 🔬 https://www.istioworkshop.io/11-security/01-mtls/
+
 
 # Supply Chain Security – 20%
 
@@ -123,6 +152,7 @@
 
 - [SIG security - MoM](https://docs.google.com/document/d/170y5biX9k95hYRwprITprG6Mc9xD5glVn-4mB2Jmi2g/edit#heading=h.7hyo00ewips2)
 
+[Firecracker](https://firecracker-microvm.github.io/) for multi-tenancy, [Bottlerocket](https://aws.amazon.com/bottlerocket/) to reduce the attack surface, [audit2rbac](https://github.com/liggitt/audit2rbac) for generating RBAC roles
 
 -------
 
