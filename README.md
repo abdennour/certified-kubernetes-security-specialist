@@ -16,6 +16,8 @@
 
 ## Properly set up Ingress objects with security control
 
+- [secure an Ingress by specifying a Secret that contains a TLS private key and certificate](https://kubernetes.io/docs/concepts/services-networking/ingress/#tls)
+
 ## Protect node metadata and endpoints
 
 - [Retrieve Node Metadata .e.g: AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html) : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
