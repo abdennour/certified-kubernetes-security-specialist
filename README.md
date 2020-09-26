@@ -58,10 +58,34 @@
 # System Hardening – 15%
 
 ## Minimize host OS footprint (reduce attack surface)
+
+- [CIS benchmark Overview/General](https://www.cisecurity.org/benchmark/distribution_independent_linux/)
+
+- CIS benchmark dedicated for each distribution
+* https://www.cisecurity.org/benchmark/red_hat_linux/
+* https://www.cisecurity.org/benchmark/ubuntu_linux/
+* https://www.cisecurity.org/benchmark/centos_linux/
+* https://www.cisecurity.org/benchmark/debian_linux/
+* https://www.cisecurity.org/benchmark/suse_linux/
+* https://www.cisecurity.org/benchmark/oracle_linux/
+
 ## Minimize IAM roles
+
+- [Least privilege pincipal](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege) is generally the way to go!
+
 ## Minimize external access to the network
+
+- ACL at the level of subnet : https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
+- Security Group at the level of machine : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html
+- Firewall at the level of OS ( ufw, firewall-cmd ) : https://www.linode.com/docs/security/firewalls/configure-firewall-with-ufw/
+
 ## Appropriately use kernel hardening tools such as AppArmor, seccomp
+
+- 📚 ["Container Security"](https://info.aquasec.com/container-security-book) by Liz Rice which covers AppArmor, Seccomp, SELinux and the whole gang.
+
 ##  Minimize Microservice Vulnerabilities – 20%
+
+
 
 ## Setup appropriate OS level security domains e.g. using PSP, OPA, security contexts
 ## Manage Kubernetes secrets
