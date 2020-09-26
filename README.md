@@ -97,6 +97,10 @@
 ## Minimize base image footprint
 ## Secure your supply chain: whitelist allowed registries, sign and validate images
 ## Use static analysis of user workloads (e.g.Kubernetes resources, Docker files)
+
+- Tools around static container image scan:
+![](.images/static-container-image-scan-tools.png)
+
 ## Scan images for known vulnerabilities
 
 
