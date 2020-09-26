@@ -81,6 +81,10 @@
 
 ## Appropriately use kernel hardening tools such as AppArmor, seccomp
 
+- https://kubernetes.io/docs/tutorials/clusters/apparmor/
+
+- https://kubernetes.io/docs/tutorials/clusters/seccomp/
+
 - 📚 ["Container Security"](https://info.aquasec.com/container-security-book) by Liz Rice which covers AppArmor, Seccomp, SELinux and the whole gang.
 
 
@@ -162,12 +166,24 @@
 # Monitoring, Logging and Runtime Security – 20%
 
 ## Perform behavioral analytics of syscall process and file activities at the host and container level to detect malicious activities
+
+- https://kubernetes.io/docs/tutorials/clusters/seccomp/
+
 ## Detect threats within physical infrastructure, apps, networks, data, users and workloads
+
 ## Detect all phases of attack regardless where it occurs and how it spreads
+
+- Get the General Concept : https://www.dnvgl.com/article/the-seven-phases-of-a-cyber-attack-118270
+
 ## Perform deep analytical investigation and identification of bad actors within environment
+
 ## Ensure immutability of containers at runtime
+
+- [Falco](https://falco.org/docs/) might help ?
+
 ## Use Audit Logs to monitor access
 
+- https://kubernetes.io/docs/tasks/debug-application-cluster/audit/
 
 -------
 
@@ -178,6 +194,10 @@
 [Firecracker](https://firecracker-microvm.github.io/) for multi-tenancy, [Bottlerocket](https://aws.amazon.com/bottlerocket/) to reduce the attack surface, [audit2rbac](https://github.com/liggitt/audit2rbac) for generating RBAC roles
 
 -------
+
+# Disclaimer
+
+> The given links are our assumptions and ideas - we neither have insights into the exam requirements, nor do we know how exactly it will look like. We are guessing about possibilities and try to collect resources.
 
 # License
 
