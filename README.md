@@ -124,13 +124,36 @@
 # Supply Chain Security – 20%
 
 ## Minimize base image footprint
+
+- [7 best practices](https://cloud.google.com/blog/products/gcp/7-best-practices-for-building-containers) for build containers.
+
+- https://github.com/GoogleContainerTools/distroless
+
+
 ## Secure your supply chain: whitelist allowed registries, sign and validate images
+
+- Docker Way : https://docs.docker.com/engine/security/trust/content_trust/
+
+- Tools for manage supply chain and artifacts:
+![](.images/manage-supply-chain+artifacts.png)
+
+- tools for siging container image Cryptographically:
+
+![](.images/sign-container-image-crypto.png)
+
+- example - [restrict pulling images from registries](https://www.openpolicyagent.org/docs/latest/kubernetes-primer/)
+
+- Related also with https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/
+
 ## Use static analysis of user workloads (e.g.Kubernetes resources, Docker files)
 
+- kubehunter: https://github.com/aquasecurity/kube-hunter
 - Tools around static container image scan:
 ![](.images/static-container-image-scan-tools.png)
 
 ## Scan images for known vulnerabilities
+
+- Clair: https://github.com/quay/clair
 
 - Tools around dynamic container image scan : 
 
