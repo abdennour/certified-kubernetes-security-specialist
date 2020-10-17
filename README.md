@@ -208,6 +208,13 @@ docker run --rm -it -v `pwd`:/host aquasec/kube-bench:latest install
 
 > The given links are our assumptions and ideas - we neither have insights into the exam requirements, nor do we know how exactly it will look like. We are guessing about possibilities and try to collect resources.
 
+
 # License
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+
+# Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/abdennour/certified-kubernetes-security-specialist.svg)](https://starchart.cc/abdennour/certified-kubernetes-security-specialist)
