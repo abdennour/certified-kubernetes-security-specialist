@@ -9,6 +9,15 @@
 - https://github.com/Tufin/test-network-policies
 
 ## Use CIS benchmark to review the security configuration of  Kubernetes components (etcd, kubelet, kubedns, kubeapi)
+
+```sh
+# install kube-bench in the current host dir
+docker run --rm -it -v `pwd`:/host aquasec/kube-bench:latest install
+
+# benchmarking your cluster ( verify the curren kubeconfig before)
+./kube-bench <name-of-node>
+```
+
 - https://www.cisecurity.org/benchmark/kubernetes/
 - https://github.com/dev-sec/cis-kubernetes-benchmark
 - https://github.com/aquasecurity/kube-bench
