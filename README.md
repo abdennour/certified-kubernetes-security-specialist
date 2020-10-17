@@ -29,10 +29,7 @@ docker run --rm -it -v `pwd`:/host aquasec/kube-bench:latest install
 
 ## Protect node metadata and endpoints
 
-- [Retrieve Node Metadata .e.g: AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html) : https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html
-
-- e.g: [Restricting access to Amazon EC2 instance profile credentials](https://docs.aws.amazon.com/eks/latest/userguide/restrict-ec2-credential-access.html) or its [UserData](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) could be part of the exam.
-
+- Prevent unauthenticated / unauthorised to api-server (authorization-mode, .. son on)
 
 ## Minimize use of, and access to, GUI elements
 
