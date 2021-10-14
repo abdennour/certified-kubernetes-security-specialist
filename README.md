@@ -199,6 +199,8 @@ docker run --rm -it -v `pwd`:/host aquasec/kube-bench:latest install
 
 - [Firecracker](https://firecracker-microvm.github.io/) for multi-tenancy, [Bottlerocket](https://aws.amazon.com/bottlerocket/) to reduce the attack surface, [audit2rbac](https://github.com/liggitt/audit2rbac) for generating RBAC roles
 
+- [Kubernetes Security Checklist and Requirements](https://github.com/Vinum-Security/kubernetes-security-checklist)
+
 -------
 
 # Disclaimer
