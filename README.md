@@ -111,6 +111,8 @@ docker run --rm -it -v `pwd`:/host aquasec/kube-bench:latest install
 - 🔬 Sealed Secrets : https://github.com/bitnami-labs/sealed-secrets
 
 - secrets-store-csi-driver : https://github.com/kubernetes-sigs/secrets-store-csi-driver
+  
+- https://spacelift.io/blog/kubernetes-secrets
 
 ## Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)
 
